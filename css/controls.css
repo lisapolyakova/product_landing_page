@@ -1,0 +1,33 @@
+.registration__button{
+    background-color: var(--button-bg-color);
+    color: var(--header-banner-color);
+    width: 100%;
+    padding: 19px 21px;
+    margin-top: 20px;
+    border: 2px solid var(--border-color-input);
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family:"Roboto",sans-serif ;
+    text-transform: uppercase;
+}
+.registration__button:hover{
+    background-color: var(--button-bg-color-hover);
+}
+.our-tours__card-button {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 10px;
+    color: var(--header-banner-color);
+    background-color: var(--bgc-our-tours);
+    text-transform: uppercase;
+    padding: 15px 17px;
+    margin-top: 40px;
+    border: 2px solid var(--header-banner-color);
+    width: fit-content;
+    cursor: pointer;
+}
+.our-tours__card-button:hover{
+    color: var(--bgc-our-tours);
+    background-color: var(--header-banner-color);
+}

@@ -30,3 +30,18 @@ img {
     max-width: 1200px;
     margin: auto;
 }
+.list-item__title,
+.our-tours__card-title{
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    font-weight: 700;  
+    line-height: 33px; 
+    color: var(--header-banner-color);
+}
+.main-features__title,
+.our-tours__header{
+    font-family: 'Dosis', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57px;
+}

@@ -6,10 +6,6 @@
 }
 .main-features__title{
     align-self: center;
-    font-family: 'Dosis', sans-serif;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 57px;
     color: var(--header-banner-color);
     margin-bottom: 28px;
 }

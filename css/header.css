@@ -1,6 +1,13 @@
-.header-nav{
-    background-color: var(--bg-color-nav-bar);
+.header{
+   width: 100vw; 
+   height: 100vh;
+   background-image: url(../img/bg-image-banner.png);
+   background-position: bottom;
+   background-size: cover;
 }
+/* .header-nav{
+    background-color: var(--bg-color-nav-bar);
+} */
 .header-nav__logo {
     width: 113px;
     height: auto;
@@ -23,9 +30,9 @@
 }
 .header-banner {
     min-height: 600px;
-    background-image: url(../img/bg-image-banner.png);
+    /* background-image: url(../img/bg-image-banner.png);
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,4 +48,7 @@
 .header-banner__site-description {
     font-size: 20px;
     font-weight: 700;
+}
+@media (max-width:980px) {
+
 }
