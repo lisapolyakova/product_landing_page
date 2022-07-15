@@ -1,13 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Leckerli+One&family=Roboto:wght@300;400;700&display=swap');
 :root {
-    font-family: 'Lato', sans-serif;
-    background-color: #eee;
-    --text-color:#000;
+    font-family: "Roboto",sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--text-color);
+    --text-color:#6e6e6e;
+    --bg-color-nav-bar:#6BAFBE;
+    --main-registration-form:rgba(255,255,255,0.09);
+    --main-registration-form-input:rgba(255,255,255,0.1);    
+    --title-color:#141414;
     --copyright-text-color:#444444;
-    --footer-bg-color:#DDDDDD;
     --button-bg-color:#f1c40f;
     --button-bg-color-hover:#ffa500;
+    --bgc-our-tours:#000;
+    --header-banner-color:#fff;
+    --border-color-input:#565656;
+    scroll-behavior: smooth;
 }
 *{
     margin: 0;
@@ -17,4 +25,8 @@
 img {
     display: block;
     width: 100%;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
 }

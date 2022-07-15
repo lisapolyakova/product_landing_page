@@ -1,0 +1,16 @@
+.main__our-tours {
+    background-color: var(--bgc-our-tours);
+}
+.main__our-tours-container{
+    display: flex;
+    flex-direction: row;
+}
+.our-tours__list{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    
+}
+.our-tours__card {
+    width: 360px;
+}

@@ -1,0 +1,35 @@
+.main-features__container{
+    display: flex;
+    flex-direction: column;
+    background-color:var(--bgc-our-tours) ;
+    padding: 140px 0;
+}
+.main-features__title{
+    align-self: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57px;
+    color: var(--header-banner-color);
+    margin-bottom: 28px;
+}
+.main-features__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0 20px;
+}
+.main-features__list-item {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.list-item__title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    font-weight: 700;  
+    line-height: 33px; 
+    color: var(--header-banner-color);
+}

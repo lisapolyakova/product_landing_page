@@ -1,0 +1,8 @@
+.main-video__safari-video{
+    background-color:var(--bgc-our-tours) ;
+    padding-bottom: 140px;
+}
+.main-video__safari-video-container {
+    display: flex;
+    justify-content: center;
+}

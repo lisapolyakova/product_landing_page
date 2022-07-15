@@ -1,4 +1,7 @@
 @import url(common.css);
 @import url(header.css);
-@import url(main.css);
+@import url(main-registration.css);
+@import url(main-features.css);
+@import url(main-safari-video.css);
+@import url(main-our-tours.css);
 @import url(footer.css);

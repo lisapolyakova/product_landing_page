@@ -1,6 +1,44 @@
-.nav-container {
-    display: flex;
+.header-nav{
+    background-color: var(--bg-color-nav-bar);
 }
-.header-nav__menu {
+.header-nav__logo {
+    width: 113px;
+    height: auto;
+}
+.nav-menu {
     display: flex;
+    justify-content:space-between;
+    /* flex:1; */
+    align-items: center;
+}
+.header-nav__menu{
+    display: flex;
+    column-gap: 20px;
+}
+.header-nav__menu-item{
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--header-banner-color);
+    font-weight: 700;
+}
+.header-banner {
+    min-height: 600px;
+    background-image: url(../img/bg-image-banner.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:var(--header-banner-color);
+    row-gap: 40px;
+}
+.header-banner__title{
+    font-family: "Leckerli One";
+    font-size: 120px;
+    line-height: 132px;
+}
+.header-banner__site-description {
+    font-size: 20px;
+    font-weight: 700;
 }
